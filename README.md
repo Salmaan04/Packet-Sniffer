@@ -1,10 +1,9 @@
 # Packet-Sniffer
-A simple network packet sniffer built in Python using Scapy that captures and displays live network traffic in real time.
-Features
+a multi-threaded TCP port scanner in Python using socket programming and the concurrent.futures ThreadPoolExecutor to scan target IP address
+Scans 12 of the most commonly used TCP ports (including SSH, HTTP, HTTPS, SMB, RDP, DNS) and reports their status with scan timestamps.
 
 Captures TCP, UDP, and ICMP packets
 Shows source and destination IPs and ports
-Runs in the terminal
 
 Uses scapy a python library used for capturing and analysing network packets
 
