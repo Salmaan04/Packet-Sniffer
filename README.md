@@ -6,9 +6,7 @@ Captures TCP, UDP, and ICMP packets
 Shows source and destination IPs and ports
 Runs in the terminal
 
-Usage
-pip install scapy
-sudo python3 packet_sniffer.py
+Uses scapy a python library used for capturing and analysing network packets
 
 Example Output
 [TCP] 20.42.65.85:443 --> 192.168.0.6:56676
